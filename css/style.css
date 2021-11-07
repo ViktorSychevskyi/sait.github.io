@@ -1,0 +1,39 @@
+.heder{
+    padding-bottom: 100px;
+}
+.logo{
+   width: 150px;
+   
+}
+
+.intro{
+    color: red;
+}
+.blue{
+    background-color: blue;
+    color: white;
+    width: 100px;;
+}
+
+.text-red{
+    color: red;
+}
+
+h2{
+    background-color:green;
+    color: white;
+        
+    }
+
+.wokr{
+ padding: 40px;
+}
+
+.i{
+    padding-left: 120px;
+}
+
+.table{
+    border: 1px solid #000000;
+    font-size: 20px;
+}
