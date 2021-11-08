@@ -102,18 +102,25 @@ padding-top: 50px;
     background:url('../img/icon3.jpg') no-repeat  top;
    
 }
-
-.form{
-    padding-top: 100px;
+.section-form{
     background:#ecf3f8;
     padding-bottom: 100px;
-    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+
 }
 
+.check{
+    padding-bottom: 0px;
+}
 
 .input  {
-    box-sizing: border-box;
-    margin-left: 500px;
     width: 345px;
     height: 50px;
     border: 1px solid #bbbbbb ;
@@ -125,8 +132,7 @@ padding-top: 50px;
 }
 .btn-free{
     border: 0;
-    margin-left: 500px;
-    width: 345px;
+    width: 375px;
     margin-top: 13px;   
 }
 
