@@ -113,13 +113,10 @@ padding-top: 50px;
     align-items: center;
     flex-direction: column;
     padding-top: 50px;
-
 }
-
 .check{
     padding-bottom: 0px;
 }
-
 .input  {
     width: 345px;
     height: 50px;
@@ -135,7 +132,6 @@ padding-top: 50px;
     width: 375px;
     margin-top: 13px;   
 }
-
 .footer{
     background-color: #164d7a;
     padding: 50px 0 ;
@@ -146,4 +142,85 @@ padding-top: 50px;
     color: #ffffff;
     margin: 0;
     text-align: center;
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 960px;
+    }
+
+}
+@media screen and (max-width:992px){
+    .container{
+        width: 720px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .ofer{
+        width: 100%;
+    }
+    .intro{
+        width: auto;
+    }
+    .travel{
+        display: block;
+        width: 641; 
+        margin: 72px 0;
+    }
+    .icons{
+        flex-direction: column;
+        width: auto;
+        margin-left: 110px;
+        margin-bottom: auto;
+    }
+    .icon{
+        margin-bottom: 50px;
+    }
+    .icon-palm{
+        margin-bottom: 50px;
+    }
+    .icon-rocket{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 540px;
+    }
+
+}
+@media screen and (max-width:576px){
+    .container{
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+    .intro{
+        width: 320px;
+    }
+
+    .dream-two{
+        width: auto;
+    }
+    .icons{
+        flex-direction: column;
+        width: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+    .icon-span{
+        width: auto;
+    }
+    
+     .input{
+        width: 200px;
+    }
+     .btn-free{
+        width: 230px;
+    }
+    .footer{
+        width: auto;
+    }
+
 }
