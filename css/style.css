@@ -106,17 +106,38 @@ padding-top: 50px;
 .form{
     padding-top: 100px;
     background:#ecf3f8;
-    
+    padding-bottom: 100px;
+    margin: auto;
 }
 
-.input{
-    margin-left: 650px;
-    display: flex;
-    justify-content: center;
+
+.input  {
+    box-sizing: border-box;
+    margin-left: 500px;
     width: 345px;
     height: 50px;
     border: 1px solid #bbbbbb ;
     font-size: 15px;
     font-family: 'Ubuntu', sans-serif;
     padding-left: 25px;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.btn-free{
+    border: 0;
+    margin-left: 500px;
+    width: 345px;
+    margin-top: 13px;   
+}
+
+.footer{
+    background-color: #164d7a;
+    padding: 50px 0 ;
+}
+.credit{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
 }
